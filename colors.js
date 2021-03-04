@@ -1,6 +1,4 @@
 var colors = ["black", "grey", "white", "red", "orange", "yellow", "green", "blue", "indigo", "violet"];
-context.fillstyle = "white";
-context.fillRect(0, 0, canvas.width, canvas.height);
 var swatchs = document.getElementsByClassName("swatch");
 for (let i = 0; i < colors.length; i++) {
   var swatch = document.createElement("div");
